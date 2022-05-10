@@ -35,7 +35,10 @@ p {
 img, p{
     margin: 1.5em 0;
 }
-
+.pages-contact{
+    padding-bottom: 2em;
+    
+}
 .pages-contact p{
     padding: 1em 0;
     max-width: 400px;
