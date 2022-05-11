@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     color: #08090A;
     background-color: #FBFEFB;
@@ -12,14 +11,12 @@ body{
 }
 
 /*logo*/
-
 .logo{
     border: 6px solid #89023E;
     width: 3em;
     height: 3em;
     margin: 1.5em;
 }
-
 .logo a{
     color: #89023E;
     font-weight: bolder;
@@ -29,7 +26,6 @@ body{
 }
 
 /*header */
-
 .greetings{
     display: flex;
     flex-wrap: wrap;
@@ -38,24 +34,19 @@ body{
     gap: 15px;
     padding: .75em;
 }
-
 .greetings h1 {
     font-size: 25px;
     text-align: center;
     padding: .5em;
 }
-
-
 .greetings .colored-name{
     color: #FF6666;
 }
-
 .avatar img{
     width: 200px;
     border-radius: 100px;
     background-color: #FF6666;
 }
-
 .socials, .footer-socials{
     display: flex;
     align-items: center;
@@ -63,24 +54,20 @@ body{
     gap: 15px;
     padding: 1em 0;
 }
-
 .socials-logo{
     color:#89023E;
     font-size: 20px;
     transition: .4s;
 }
-
 .socials-logo:hover{
     color: #FF6666;
 }
 
 
 /*about, projects and contact me*/
-
 .about, .projects, .contact {
     margin: 0 1.5em;
 }
-
 .sub-title{
     color: #89023E;
     background-color: #FFBA08;
@@ -90,28 +77,23 @@ body{
 }
 
 /*about*/
-
 .about-me, .skills{
     line-height: 30px;
 }
-
 .about-me p{
     font-size: 15px;
     padding-bottom: 10px;
 }
-
 .skills {
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
 
 }
-
 .skills p{
    font-size: 18px;
    font-weight: 600;
 }
-
 
 /* projects */
 .project-box{
@@ -125,21 +107,19 @@ body{
     width: 90%;
     margin: 0 auto;
 }
-
 .project-box:hover{
     box-shadow: 5px 5px 15px rgba(136, 2, 62, .9);    
 }
-
 .project-box img{
     
     width: 100%;
     border-radius: .75em;
     cursor: pointer;
 }
- .project-box h3{
+.project-box h3{
     padding-top: 1em;
     font-size: 22px;
- }
+}
 
 .project-box p {
     padding: 0.75em 0;
@@ -150,12 +130,10 @@ body{
     font-weight: 700;
 }
 
-
 /* footer*/
 .contact{
     padding-bottom: 2em;
 }
-
 .form-container{
     display: flex;
     flex-direction: column;
@@ -173,9 +151,6 @@ body{
     font-size: 13px;
     padding-left: .5em;
 }
-
-
-
 .button {
     max-height: 25px;
     border-radius: .5em;
@@ -187,29 +162,19 @@ body{
     text-align: center;
     transition: .5s;
 }
-
 .button:hover{
     cursor: pointer;
     background-color: #89023E;
     color: #FBFEFB;
 }
-
 .contact p{
     padding: 1em 0;
     max-width: 400px;
     font-size: 20px;
 }
-
-.resume{
-    border: 2px solid #89023E;
-    background: transparent;
-    border-radius: 3em;
-} 
-
 .footer-socials{
     justify-content: center;
 }
-
 
 @media(max-width: 495px) {
     .skills {
@@ -229,7 +194,6 @@ body{
         width: 280px;
         border-radius: 140px;
     }
-
     .socials-logo{
         font-size: 30px;
     }
@@ -255,13 +219,9 @@ body{
         height: 2px;
         background-color: #89023E;
     }
-
     .about, .projects, .contact {
         margin: 0 3.5em;
     }
-
-    /*about*/
-   
     
     /*footer*/
     .contact-container{
@@ -285,10 +245,7 @@ body{
     }
 }
 
-
-
 /* THANK YOU PAGE*/
-
 .thank-you{
     width: 50%;
     height: 300px;
